@@ -43,7 +43,6 @@ abbr,acronym { border: 0;
 
 
 body{
-
   font-family: 'Lato', sans-serif;
   color: #F2F2F2;
 }
@@ -57,10 +56,11 @@ body{
 }
 
 #section0{
-  background-color: #BFDA00;
-}
+/*  background-color: #BFDA00;
+*/}
 
 h1{
+  font-family: 'Cardo', serif;
   color: #fff;
   font-size: 30px;
   letter-spacing: 1px;

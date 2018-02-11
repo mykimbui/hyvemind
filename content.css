@@ -32,3 +32,37 @@ hr {
 .icons {
   width: 100px;
 }
+
+.banner {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  filter: grayscale(50%)
+}
+
+.social {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.aroundpad {
+  padding-bottom: 20px;
+}
+
+.lefte {
+  text-align: left;
+  line-height: 24px;
+}
+
+.pas {
+  padding-right: 10px;
+  padding-left: 3px;
+}
+
+.ali {
+  display:inline-block
+}
