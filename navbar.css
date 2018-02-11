@@ -1,0 +1,26 @@
+.navbar {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.flexedend {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: white;
+}
