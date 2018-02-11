@@ -47,9 +47,7 @@ body{
   font-family: 'Lato', sans-serif;
   color: #F2F2F2;
 }
-h1{
-  font-size: 6em;
-}
+
 
 .content{
   position: relative;
@@ -61,11 +59,19 @@ h1{
 #section0{
   background-color: #BFDA00;
 }
-#section0 h1{
+
+h1{
   color: #fff;
   font-size: 30px;
   letter-spacing: 1px;
 }
+
+h2 {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
 #section0 p{
   color: #333;
   opacity: 0.4;
@@ -74,9 +80,7 @@ h1{
 #section1{
   background-color: black;
 }
-#section1 h1{
-  color: #fff;
-}
+
 #section1 p{
   opacity: 0.8;
 }
