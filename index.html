@@ -16,73 +16,144 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#b91d47">
   <meta name="theme-color" content="#ffffff">
-
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
   <link rel="stylesheet" type="text/css" href="index.css" />
   <link rel="stylesheet" type="text/css" href="navbar.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 
 </head>
 <body>
  <div class="navbar">
-  <a href="#"><img alt="hyvemind-logo" src="#"></a>
   <ul class="flexedend">
-    <li id="firstPage"><a class="links" href="#firstPage">Home</a></li>
-    <li id="secondPage"><a class="links" href="#secondPage">Services</a></li>
-    <li id="3rdPage"><a class="links" href="#3rdPage">Our work</a></li>
-    <li id="4thPage"><a class="links" href="#4thPage">About us</a></li>
-    <li id="lastPage"><a class="links" href="#lastPage">Contact</a></li>
+    <li class="aligned"><a href="#firstPage"><img class="logo" alt="hyvemind-logo" src="images/hyvemind-logo.svg"></a></li>
+    <div class="padtop">
+      <li class="aligned" id="firstPage"><a class="links" href="#firstPage">Home</a></li>
+      <li class="aligned" id="secondPage"><a class="links" href="#secondPage">Services</a></li>
+      <li class="aligned" id="3rdPage"><a class="links" href="#3rdPage">Our work</a></li>
+      <li class="aligned" id="4thPage"><a class="links" href="#4thPage">About us</a></li>
+      <li class="aligned" id="5thPage"><a class="links" href="#5thPage">Staff</a></li>
+      <li class="aligned" id="lastPage"><a class="links" href="#lastPage">Contact</a></li>
+    </div>
   </ul>
 </div>
 <div id="fullpage">
- <div class="section " id="section0">
-  <div class="content">
-    <img alt="hyvemind-logo" src="#">
-    <h1>Smart way of serving</h1>
-    <ul>
-      <li><i class="fa fa-facebook-f"></i></li>
-      <li><i class="fa fa-pinterest"></i></li>
-      <li><i class="fa fa-instagram"></i></li>
-    </ul>
+  <div class="section" id="section0">
+    <div class="content">
+      <div class="banner" style="background-image: url("images/hyvemind-bg1.jpg");"></div>
+      <img class="logosized" alt="hyvemind-logo" src="images/hyvemind-logo.svg">
+      <h1>Smart way of serving</h1>
+      <ul>
+        <li class="aligned"><i class="fa fa-facebook-f"></i></li>
+        <li class="aligned"><i class="fa fa-pinterest"></i></li>
+        <li class="aligned"><i class="fa fa-instagram"></i></li>
+      </ul>
+    </div>
   </div>
-</div>
-<div class="section" id="section1">
-  <div class="slide" id="slide1">
-   <div class="content">
-   </div>
- </div>
- <div class="slide" id="slide2">
-   <div class="content">
-    <h1>Slides too!</h1>
-  </div>
-</div>
-<div class="slide" id="slide2">
- <div class="content">
-  <h1>More slides!</h1>
-</div>
-</div>
-</div>
-<div class="section" id="section2">
-  <div class="content">
-  </div>
-</div>
-<div class="section" id="section3">
-  <div class="content">
-  </div>
-</div>
-<div class="section" id="section4s">
-  <div class="content">
-  </div>
-</div>
-</div>
+  <div class="section" id="section1">
+    <div class="content">
+      <ul>
+        <li class="aligned">
+          <img alt="hyvemind-smart" src="images/hyvemind-waiter.svg">
+          <h2>Smart Service</h2>
+          <ul>
+            <li>Système de commande centralisé intelligent</li>
+            <li>N'ayez pas soif, commandez tout de suite</li>
+            <li>Chaque table servie en moins de 3 minutes</li>
+            <li>Efficacement coordonné</li>
+          </ul>
+        </li>
+        <li class="aligned">
+          <img alt="hyvemind-visual" src="images/hyvemind-service.svg">
+          <h2>Visual Service</h2>
+          <ul>
+            <li>Gardez une trace de votre commande</li>
+            <li>Personnalisé à votre thème de mariage</li>
+            <li>Projection d'image en direct</li>
+            <li>Mise à jour en temps réel</li>
+          </ul></li>
+          <li class="aligned">
+            <img alt="hyvemind-audio" src="images/hyvemind-audio.svg">
+            <h2>Audio System Rental</h2>
+            <ul>
+              <li>Son audio optimal</li>
+              <li>100% garantie de performance</li>
+              <li>Coût le plus bas</li>
+            </ul></li>
+          </ul>
+        </div>
+      </div>
+      <div class="section" id="section2">
+        <div class="content">
+          <section class="block">
+            <h3>Smart Service</h3>
+            <hr>
+            <p>HyveMind vient de la ruche. Les abeilles travaillent toutes ensemble à partir d'une unité centrale. Copiant l'efficacité de la nature, nous l'appliquons à notre activité de travail pour garantir un service optimal.</br>Comme les abeilles, notre travail est centralisé. Grâce à notre technologie de distribution intelligente, toutes les commandes sont collectées en continu dans un concentrateur central. De ce hub, ils sont assignés à notre hôte professionnel. Grâce à notre technologie de service intelligente, vos invités n'auront jamais à attendre pour passer une commande. La commande est immédiatement envoyée au concentrateur central. Une fois la commande effectuée dans le hub central, nous garantissons le traitement de la commande et le service en moins de trois minutes. De cette façon, vous pouvez être sûr que chaque table est servie.</p>
+          </section>
+          <section class="block">
+            <h3>Visual Service</h3>
+            <hr>
+            <p>Grâce à notre logiciel en temps réel, vous pouvez suivre votre commande et effectuer des modifications jusqu'au moment où la commande est traitée. Vous serez en mesure de voir que votre commande est en cours de traitement et de savoir quand elle est en route vers la table.</br>Notre interface personnalisée vous permet de faire correspondre le style de l'appareil de commande à votre thème de mariage choisi, en veillant à ce que vos décorations de table soient parfaites.</br>Le logiciel de service intelligent a un moniteur d'image intégré. Avec le système de surveillance d'image, les images sont affichées pendant l'événement. Cela garantit un événement dynamique et donne à chaque invité la possibilité de participer à tous les moments spéciaux.</p>
+          </section>
+          <section class="block">
+            <h3>Smart Service</h3>
+            <hr>
+            <p>Avec l'expérience, nous avons remarqué que parfois l'installation audio refuse d'effectuer. Garantissant de fournir le meilleur service, nous offrons également des performances audio de haut niveau. Nous donnons 100% de garantie pour ses performances pendant tout l'événement.</p>
+          </section>
+        </div>
+      </div>
+      <div class="section" id="section3">
+        <div class="content centering">
+          <section class="block">
+            <h3>À PROPOS DE NOUS</h3>
+            <hr>
+            <p>Nous sommes une équipe professionnelle, dynamique et diversifiée prête pour votre commande. En tant qu'équipe, nous sommes déterminés à travailler intelligemment et en classe pour vous fournir le meilleur service. Nos membres sont tous expérimentés dans le service d'accueil et parlent tous au moins trois langues. Nous fournissons un excellent service, non seulement en livrant de la nourriture et des boissons, mais aussi en accueillant et guidant les quêtes en faisant des recommandations de menu, en répondant aux questions et en partageant des informations supplémentaires tout au long de la cérémonie dans leur langue préféré</br></br>Comme une ruche, nous allons adoucir votre vie!</p>
+          </section>
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div class="content">
+        </div>
+      </div>
+      <div class="section" id="section5">
+        <div class="content">
+          <div class="centering">
+            <div>
+              <img class="logosized" alt="hyvemind-logo" src="images/hyvemind-logo.svg">
+              <h1>Smart way of serving</h1>
+              <section class="block">
+                <h3>FIND US</h3>
+                <hr>
+                <p>HyveMind@outlook.com</br>Tel: 0485.31.75.37</br>You can contact us 24/7</p>
+              </section>
+            </div>
+          </div>
+          <div class="footer">
+            <ul>
+              <li class="aligned"><i class="fa fa-facebook-f"></i></li>
+              <li class="aligned"><i class="fa fa-pinterest"></i></li>
+              <li class="aligned"><i class="fa fa-instagram"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<script type="text/javascript" src="javascript.fullPage.js"></script>
-<script type="text/javascript">
-	fullpage.initialize('#fullpage', {
-		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-		menu: '#menu',
-		css3:true
-	});
+    </div>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="fadeIn.js"></script>
+  <script type="text/javascript" src="javascript.fullPage.js"></script>
+  <script type="text/javascript">
+   fullpage.initialize('#fullpage', {
+    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage', 'lastPage'],
+    menu: '#menu',
+    css3:true
+  });
 
 </script>
 
