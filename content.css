@@ -27,6 +27,10 @@ hr {
   background-color: grey;
   width: 100%;
   padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .icons {
@@ -65,4 +69,8 @@ hr {
 
 .ali {
   display:inline-block
+}
+
+.text-center {
+  text-align: center;
 }
